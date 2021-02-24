@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_FizzBuzz", "Conditionals_FizzBuzz\Conditionals_FizzBuzz.csproj", "{0D64EF07-7C4B-4C3E-9381-399CECB1A141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{FBB43E41-D42E-4221-B8A4-18F8D9A3FAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{FBB43E41-D42E-4221-B8A4-18F8D9A3FAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_For", "Loops_For\Loops_For.csproj", "{9A3C8258-FDE9-49BE-AD56-38A81B8414E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_ExampleReadingInAFile", "File_ExampleReadingInAFile\File_ExampleReadingInAFile.csproj", "{691A7398-D79B-4CE2-BF1F-DC619316866C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{FBB43E41-D42E-4221-B8A4-18F8D9A3FAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB43E41-D42E-4221-B8A4-18F8D9A3FAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB43E41-D42E-4221-B8A4-18F8D9A3FAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3C8258-FDE9-49BE-AD56-38A81B8414E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C8258-FDE9-49BE-AD56-38A81B8414E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C8258-FDE9-49BE-AD56-38A81B8414E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C8258-FDE9-49BE-AD56-38A81B8414E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691A7398-D79B-4CE2-BF1F-DC619316866C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691A7398-D79B-4CE2-BF1F-DC619316866C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691A7398-D79B-4CE2-BF1F-DC619316866C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691A7398-D79B-4CE2-BF1F-DC619316866C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
