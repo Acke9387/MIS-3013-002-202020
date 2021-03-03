@@ -16,6 +16,14 @@ namespace StringManipulation
         static void Main(string[] args)
         {
             string message = "tAylOr SwIFt, tHe WeEknD, TRaVis sCoTt, aRiANa gRAndE, bIlLiE eiLiSh";
+            ///            01234567
+            string msg2 = "tAylOr SwIFt";
+
+            //output the contents of msg2 vertically instead of horizontally (each character on a new line)
+            //for (int i = 0; i < msg2.Length; i++)
+            //{
+            //    Console.WriteLine(msg2[i]);
+            //}
 
             //string msg2 = message.ToLower();
             //string msg3 = msg2.Substring(1);
@@ -29,6 +37,11 @@ namespace StringManipulation
             {
                 string artist = artists[i].Trim();
 
+                int indexOfSpace = artist.IndexOf(' ');
+                msg2 = artist.ToUpper()[0] + artist.ToLower().Substring(1, indexOfSpace)
+                + artist.ToUpper()[indexOfSpace + 1] + artist.ToLower().Substring(indexOfSpace + 2);
+                Console.WriteLine(msg2);
+
                 string[] names = artist.Split(' ');
                 string firstName = names[0];
                 string lastName = names[1];
@@ -36,7 +49,7 @@ namespace StringManipulation
                 string newArtist = firstName.ToUpper()[0] + firstName.ToLower().Substring(1) + " " +
                                    lastName.ToUpper()[0] + lastName.ToLower().Substring(1);
                 Console.WriteLine(newArtist);
-
+                Console.WriteLine();
             }
 
 
