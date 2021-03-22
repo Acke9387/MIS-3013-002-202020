@@ -61,7 +61,7 @@ namespace Collections_MinMaxAvgMode
             {
                 if (exams[scoreKey] == highestOccurrence)
                 {
-                    Console.WriteLine($"{exams[scoreKey]} occurrs the most.");
+                    Console.WriteLine($"{scoreKey} occurrs the most."); //only need to use scorekey since that is the exam score
                 }
             }
         }
