@@ -27,6 +27,8 @@ namespace Collections_MinMaxAvgMode
             } while (answer.ToLower()[0] == 'y');
 
             double min = examScores[0];
+            double max = examScores[0];
+            double avg = 0, sum = 0;
 
             foreach (double score in examScores)
             {
@@ -34,6 +36,13 @@ namespace Collections_MinMaxAvgMode
                 {
                     min = score;
                 }
+
+                if (score > max)
+                {
+                    max = score;
+                }
+
+                sum += score;
 
                 if (exams.ContainsKey(score) == true)
                 {
@@ -46,8 +55,11 @@ namespace Collections_MinMaxAvgMode
 
             }
 
-            Console.WriteLine($"The average exam score is {""}");
+            avg = sum / examScores.Count;
+
+            Console.WriteLine($"The average exam score is {avg.ToString("N2")}");
             Console.WriteLine($"The minimum exam score is {min.ToString("N2")}");
+            Console.WriteLine($"The maximum exam score is {max.ToString("N2")}");
             int highestOccurrence = 0;
             foreach (double scoreKey in exams.Keys)
             {
