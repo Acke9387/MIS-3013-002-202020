@@ -13,6 +13,21 @@ namespace Process_CSV
             double totalFor2004 = 0;
             double totalFor2005 = 0;
 
+            double[] monthlySales = new double[13];
+            //monthlySales[0] = 0; DON'T NEED THIS ONE BECAUSE WE ARE SKIPPING SINCE 0 ISN"T A MONTH
+            monthlySales[1] = 0;
+            monthlySales[2] = 0;
+            monthlySales[3] = 0;
+            monthlySales[4] = 0;
+            monthlySales[5] = 0;
+            monthlySales[6] = 0;
+            monthlySales[7] = 0;
+            monthlySales[8] = 0;
+            monthlySales[9] = 0;
+            monthlySales[10] = 0;
+            monthlySales[11] = 0;
+            monthlySales[12] = 0;
+
 
             for (int i = 1; i < lines.Length; i++)
             {
@@ -43,9 +58,63 @@ namespace Process_CSV
                         default:
                             break;
                     }
+
+                    monthlySales[month] += sales;
                 }
 
             } // end of for
+
+            for (int i = 1; i < monthlySales.Length; i++)
+            {
+                if (i == 1)
+                {
+                    Console.WriteLine($"January sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 2)
+                {
+                    Console.WriteLine($"February sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 3)
+                {
+                    Console.WriteLine($"March sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 4)
+                {
+                    Console.WriteLine($"April sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 5)
+                {
+                    Console.WriteLine($"May sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 6)
+                {
+                    Console.WriteLine($"June sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 7)
+                {
+                    Console.WriteLine($"July sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 8)
+                {
+                    Console.WriteLine($"August sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 9)
+                {
+                    Console.WriteLine($"September sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 10)
+                {
+                    Console.WriteLine($"October sales total is {monthlySales[i].ToString("C")}");
+                }
+                else if (i == 11)
+                {
+                    Console.WriteLine($"November sales total is {monthlySales[i].ToString("C")}");
+                }
+                else // 12
+                {
+                    Console.WriteLine($"December sales total is {monthlySales[i].ToString("C")}");
+                }
+            }
 
             Console.WriteLine($"The total sales for shipped items for 2003 is {totalFor2003.ToString("C")}!");
             Console.WriteLine($"The total sales for shipped items for 2004 is {totalFor2004.ToString("C")}!");
