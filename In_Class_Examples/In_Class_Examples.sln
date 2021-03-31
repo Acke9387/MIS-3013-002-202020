@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Dictionaries", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Lists", "Collections_Lists\Collections_Lists.csproj", "{D9269F3E-4840-4B21-8656-78CE23EA7D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_ParsingData", "File_ParsingData\File_ParsingData.csproj", "{2DD0C687-06A8-4A09-8F94-5D8A70DABAA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "File_ParsingData", "File_ParsingData\File_ParsingData.csproj", "{2DD0C687-06A8-4A09-8F94-5D8A70DABAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions_Example1", "Functions_Example1\Functions_Example1.csproj", "{E528C6DF-B76B-41A7-988D-E1428DE62855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{2DD0C687-06A8-4A09-8F94-5D8A70DABAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD0C687-06A8-4A09-8F94-5D8A70DABAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD0C687-06A8-4A09-8F94-5D8A70DABAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E528C6DF-B76B-41A7-988D-E1428DE62855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E528C6DF-B76B-41A7-988D-E1428DE62855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E528C6DF-B76B-41A7-988D-E1428DE62855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E528C6DF-B76B-41A7-988D-E1428DE62855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
