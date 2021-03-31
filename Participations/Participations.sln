@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_MinMaxAvgMode",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_AllTypesOfCollections", "Collections_AllTypesOfCollections\Collections_AllTypesOfCollections.csproj", "{7860A663-F5B1-4880-99BC-80BB7402517F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process_CSV", "Process_CSV\Process_CSV.csproj", "{67A22C09-62B9-45A9-B483-4EB62868E769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process_CSV", "Process_CSV\Process_CSV.csproj", "{67A22C09-62B9-45A9-B483-4EB62868E769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions_Calculator", "Functions_Calculator\Functions_Calculator.csproj", "{CEFD37B8-DB08-4F0E-BB95-2D9A66900757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{67A22C09-62B9-45A9-B483-4EB62868E769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A22C09-62B9-45A9-B483-4EB62868E769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A22C09-62B9-45A9-B483-4EB62868E769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFD37B8-DB08-4F0E-BB95-2D9A66900757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFD37B8-DB08-4F0E-BB95-2D9A66900757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFD37B8-DB08-4F0E-BB95-2D9A66900757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFD37B8-DB08-4F0E-BB95-2D9A66900757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
