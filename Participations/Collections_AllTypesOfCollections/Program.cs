@@ -8,7 +8,8 @@ namespace Collections_AllTypesOfCollections
         static void Main(string[] args)
         {
             // Problem 1 code here
-
+            string[] subjects = new string[3];
+            int[] courseNbrs = new int[3];
 
             // Problem 2 code here
             List<double> prob2_grades = new List<double>();
